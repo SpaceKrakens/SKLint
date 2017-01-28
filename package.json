@@ -1,0 +1,27 @@
+{
+  "name": "sklint",
+  "version": "0.0.1",
+  "description": "Linter for SKON and SKEMA",
+  "main": "./lib/sklint.js",
+  "scripts": {
+    "test": "node ./lib/sklint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceKrakens/SKLint.git"
+  },
+  "keywords": [
+    "lint",
+    "skon",
+    "skema"
+  ],
+  "author": "Herman Ewert (longtomjr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpaceKrakens/SKLint/issues"
+  },
+  "homepage": "https://github.com/SpaceKrakens/SKLint#readme",
+  "devDependencies": {
+    "antlr4": "^4.6.0"
+  }
+}
